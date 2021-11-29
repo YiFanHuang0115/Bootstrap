@@ -1,0 +1,145 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@400;500;600;700;800&display=swap");
+body {
+  font-family: 'Noto Sans TC', sans-serif;
+}
+
+li {
+  list-style-type: none;
+}
+
+.Baloo_Tamma_2 {
+  font-family: 'Baloo Tamma 2', cursive;
+}
+
+.bg-gray {
+  background-color: #F7F7F7 !important;
+}
+
+.bg-gray-sp {
+  background-color: #e8e8db;
+}
+
+.bg-bronze {
+  background-color: #494846;
+}
+
+.text-lightBlack {
+  color: #373A3C;
+}
+
+.text-bronze {
+  color: #494846;
+}
+
+.text-gray {
+  color: #858378;
+}
+
+.text-gray-sp {
+  color: #999999;
+}
+
+.text-lightRed {
+  color: #FF785E;
+}
+
+a {
+  text-decoration: none;
+}
+
+.rounded-4 {
+  border-radius: 8px;
+}
+
+.navbar-brand {
+  width: 111px;
+  height: 40px;
+  background-image: url("../images/logo.jpg");
+  overflow: hidden;
+  text-indent: 101%;
+  white-space: nowrap;
+  background-size: cover;
+}
+
+.btn-warning:hover {
+  background-color: #FF785E;
+  color: #fff;
+}
+
+.tags {
+  padding: 0 16px;
+  padding-top: 1px;
+  padding-bottom: 3px;
+}
+
+.l-product .card-body .fs-2 {
+  font-family: 'Baloo Tamma 2', cursive;
+}
+
+.btn-outline-secondary:hover {
+  background-color: #FFDF65;
+  border: 0px;
+  color: #858377;
+}
+
+.btn-outline-secondary:hover i {
+  color: #FF785E;
+}
+
+.tagHover {
+  position: relative;
+}
+
+.tagHover:before, .tagHover:after {
+  bottom: 100%;
+  left: 10%;
+  -webkit-transform: translate(-50%, 0);
+      -ms-transform: translate(-50%, 0);
+          transform: translate(-50%, 0);
+  position: absolute;
+  z-index: 10;
+  -webkit-transition: all 0.18s ease-out 0.18s;
+  -o-transition: all 0.18s ease-out 0.18s;
+  transition: all 0.18s ease-out 0.18s;
+  opacity: 0;
+}
+
+.tagHover:after {
+  background-color: #494846;
+  border-radius: 4px;
+  color: #F8DE77;
+  content: attr(tags-data);
+  margin-bottom: 10px;
+  padding: 5px 11px;
+}
+
+.tagHover:before {
+  content: "";
+  margin-bottom: 4px;
+  border-top: solid 8px #494846;
+  border-left: solid 8px transparent;
+  border-right: solid 8px transparent;
+}
+
+.tagHover:hover:before, .tagHover:hover:after {
+  opacity: 1;
+}
+
+.menu-area col {
+  border-bottom: 2px solid #FFDF65;
+}
+
+.menu-area col:hover {
+  color: red;
+}
+
+.menu-area .col:hover, .menu-area .col :active, .menu-area .col :focus {
+  border-bottom: 5px solid #F8DE77;
+}
+
+.menu-area .col:hover a, .menu-area .col :active a, .menu-area .col :focus a {
+  margin: 0px;
+}
+
+/*# sourceMappingURL=index.css.map */

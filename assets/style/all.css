@@ -13155,12 +13155,16 @@ a {
   color: red;
 }
 
-.menu-area .col:hover, .menu-area .col :active, .menu-area .col :focus {
-  border-bottom: 5px solid #F8DE77;
+.menu-area .col:hover, .menu-area .col :focus {
+  border-bottom: 5px solid #fdedad;
 }
 
-.menu-area .col:hover a, .menu-area .col :active a, .menu-area .col :focus a {
+.menu-area .col:hover a, .menu-area .col :focus a {
   margin: 0px;
+}
+
+.actived {
+  border-bottom: 5px solid #F8DE77;
 }
 
 /*# sourceMappingURL=all.css.map */
